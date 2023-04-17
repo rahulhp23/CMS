@@ -1,0 +1,25 @@
+/********** Template CSS **********/
+
+
+h1{
+    text-align:center;
+    
+}
+h3{
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+}
+h4{
+    text-align:justify ;
+    color: white;
+    font-style: oblique;
+}
+span{
+    background-color:rgba(224, 200, 18, 0.818); 
+    color:rgb(245, 245, 245);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-style: italic;
+}

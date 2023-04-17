@@ -1,0 +1,96 @@
+<!--Main Navigation-->
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+      <div class="position-sticky">
+        <div class="list-group list-group-flush mx-3 mt-4">
+          
+          <img src="/assets/Faculty-Login.jpg" height="120" width="50px" alt="" loading="" class="center" /> <br>
+          <a class="list-group-item list-group-item-action py-2 ripple" aria-current="page" routerLink="/mefdashboard" routerLinkActive="active" href="">
+            <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Dashboard</span>
+          </a>
+        
+          <a class="list-group-item list-group-item-action py-2 ripple" aria-current="page" routerLink="/mefstudents" routerLinkActive="active" href=""
+            ><i class="fas fa-users fa-fw me-3"></i><span>Students</span></a>
+          <a class="list-group-item list-group-item-action py-2 ripple" aria-current="page" routerLink="/mefmarksheet" routerLinkActive="active" href=""
+            ><i class="fas fa-calendar fa-fw me-3"></i><span>Result</span></a>
+
+         
+          <a class="list-group-item list-group-item-action py-2 ripple" aria-current="page" routerLink="/faculty" routerLinkActive="active" href=""
+            ><i class="fas fa-lock fa-fw me-3"></i><span>Logout</span></a>
+         
+        </div>
+      </div>
+    </nav>
+    <!-- Sidebar -->
+  
+    <!-- Navbar -->
+    <nav id="main-navbar" class="main navbar navbar-expand-lg navbar-light bg-blue fixed-top" style="background-color:wheat; height: 50px;">
+      <!-- Container wrapper -->
+      <div class="container-fluid"> 
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#sidebarMenu"
+          aria-controls="sidebarMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+  
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+        <h3 style="height: 50px;padding-top:15px;">Welcome Back,Faculty..!! (Mechanical Engineering)</h3>
+        </a>
+       
+  
+        <!-- Right links -->
+        <ul class="navbar-nav ms-auto d-flex flex-row" style="height:80px;">
+         
+        
+  
+          
+  
+          <!-- Avatar -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="/assets/Faculty-Login.jpg"
+                class="rounded-circle"
+                height="32"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuLink">
+              
+              <li>
+                <a class="dropdown-item"  aria-current="page" routerLink="/faculty" routerLinkActive="active" href="">Logout</a>
+               
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  
+  <!--Main Navigation-->
+  
+  <!--Main layout-->
+  <main style="margin-top: 0px;">
+    <div class="container pt-4 "></div>
+  </main>
+  <!--Main layout-->

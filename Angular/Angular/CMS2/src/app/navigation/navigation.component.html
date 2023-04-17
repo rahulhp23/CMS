@@ -1,0 +1,55 @@
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow fixed-top p-0" *ngIf="visible">
+    <span>{{viewedPage | titlecase}}</span>
+    <a class="navbar-brand d-flex align-items-center px-4 px-lg-5" aria-current="page" routerLink="/home" routerLinkActive="active" href="">
+        
+        <h2 class="m-0 text-danger"><i class="fas fa-user-graduate"></i> Dr B.R Ambedkar University Of Technology</h2>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a class="nav-item nav-link active" aria-current="page" routerLink="/home" routerLinkActive="active" href="">Home</a>
+            
+            <a class="nav-item nav-link" aria-current="page" routerLink="/about" routerLinkActive="active" href="">About</a>
+           
+            <div class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
+                <div class="dropdown-menu fade-down m-0">  
+                    
+                    <a class="dropdown-item" aria-current="page" routerLink="/me" routerLinkActive="active" href="">Mechanical Engineering</a>
+                   
+                    <a class="dropdown-item" aria-current="page" routerLink="/ee" routerLinkActive="active" href="">Electronics Engineering</a>
+                   
+                    <a class="dropdown-item" aria-current="page" routerLink="/ce" routerLinkActive="active" href="">Computer Engineering</a>
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Placement</a>
+                <div class="dropdown-menu fade-down m-0">
+                    
+                    <a class="dropdown-item" aria-current="page" routerLink="/tp" routerLinkActive="active" href="">T & P Department</a>
+                    
+                    <a class="dropdown-item" aria-current="page" routerLink="/camp-sel" routerLinkActive="active" href="">Campus Selection</a>
+                   
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Login</a>
+                <div class="dropdown-menu fade-down m-0">
+                   
+                    <a class="dropdown-item" aria-current="page" routerLink="/admin" routerLinkActive="active" href="">Admin</a>
+                    
+                    <a class="dropdown-item" aria-current="page" routerLink="/faculty" routerLinkActive="active" href="">Faculty</a>
+                    
+                    <a class="dropdown-item" aria-current="page" routerLink="/student" routerLinkActive="active" href="">Student</a>
+                </div>
+            </div>
+           
+        </div>
+       
+        <a class="btn btn-info py-4 px-lg-4 d-none d-lg-block" aria-current="page" routerLink="/student-sign-up" routerLinkActive="active" href=""> Sign Up </a>
+    </div>
+</nav><br><br><br>
+<!-- Navbar End -->

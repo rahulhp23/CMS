@@ -1,0 +1,36 @@
+span {
+    background-color: orange;
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 3px solid black;
+    float: left;
+    width: 400px;
+}
+
+div.gallery:hover {
+    border: 3px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+h5 {
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+}
+h1,h4{
+    text-align:center;
+    font-style: italic;
+}

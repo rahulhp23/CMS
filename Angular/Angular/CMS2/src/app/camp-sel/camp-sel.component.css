@@ -1,0 +1,16 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+span{
+    background-color:rgb(224, 80, 18); 
+    color:rgb(245, 245, 245);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-style: italic;
+    border-radius: 15px;
+}
